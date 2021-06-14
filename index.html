@@ -4,13 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- summary of the document -->
+    <meta name="description" content="" />
+
+    <!-- keywords (optional) -->
+    <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript" />
+
+    <!-- author (optional) -->
+    <meta name="author" content="" />
+
+    <!-- rating (optional) -->
+    <meta name="rating" content="" />
+
+    <!-- allow prefetching -->
+    <meta http-equiv="x-dns-prefetch-control" content="off" />
+
+    <!-- suggest a theme color -->
+    <meta name="theme-color" content="#4c4c4c" />
+
     <title>Lorem Ipsum</title>
   </head>
   <body>
+    <!-- indicator that js is disabled -->
+    <noscript>
+      Oh no, you either have JavaScript turned off 
+      or your browser doesn't support JavaScript
+    </noscript>
+    
+    <!-- header of the document -->
     <header>
       <div>
         <h1>Lipsum</h1>
       </div>
+      <!-- navigtion -->
       <nav>
         <a href="#">Home</a>
         <a href="#">About</a>
@@ -20,9 +47,15 @@
         <button>Logout</button>
       </div>
     </header>
+    
+    <!-- main content of the document -->
     <main>
+
+      <!-- self contained content -->
       <article>
         <h2>Nullam euismod</h2>
+
+        <!-- generic standalone content -->
         <section>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed justo
           justo, posuere eu metus eget, ornare rhoncus nulla. Donec molestie
@@ -52,6 +85,8 @@
           tortor sit amet, commodo posuere velit. Phasellus hendrerit faucibus
           sem id bibendum.
         </section>
+
+        <!-- indirectly related content -->
         <aside>
           <a href="#">Link</a>
           <a href="#">Link</a>
@@ -59,6 +94,14 @@
         </aside>
       </article>
     </main>
-    <footer></footer>
+
+    <!-- footer of the document -->
+    <footer>
+      <!-- tell web crawler it's an external link -->
+      <a href="#" rel="external">External link</a>
+
+      <!-- tell web crawler to not follow link -->
+      <a href="#" rel="nofollow">No Follow link</a>
+    </footer>
   </body>
 </html>
